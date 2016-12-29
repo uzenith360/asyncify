@@ -1,8 +1,7 @@
 /* 
  * @author: Wogwugwu Zenith Ugochukwu
  * @Description: asyncify.waterfall; client side implementation of async.waterfall
- * @company: Skylar,inc.
- * 28 December 2016
+ * @Date:  28 December 2016
  */
 
 'use strict';

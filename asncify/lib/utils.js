@@ -1,8 +1,7 @@
 /* 
  * @author: Wogwugwu Zenith Ugochukwu
  * @Description: Utility library for asyncify functions
- * @company: Skylar,inc.
- * 28 December 2016
+ * @Date: 28 December 2016
  */
 
 'use strict';

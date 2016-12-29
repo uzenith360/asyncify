@@ -1,7 +1,6 @@
 /* 
  * @author: Wogwugwu Zenith Ugochukwu
  * @Description: Vanilla test script
- * @company: Skylar,inc.
  */
 
 

@@ -10,6 +10,8 @@ var asncify = asncify || {};
 
 //tasks can either be an array or an object
 asncify.parallel = function (tasks, cb) {
+    cb = cb || function () {};
+    
     var iterable = utils.iterateOverArrayANDOBJECT(tasks), nextTask, taskKey, task, results = Array.isArray(tasks) ? [] : {};
 
     iterable.forEach(function (nextTask) {

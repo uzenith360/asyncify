@@ -11,6 +11,8 @@ var asncify = asncify || {};
 //Same as async.retry, except that if u specify a falsy value for the retry times, then the task keeps executing indefinitely until the callback gets called
 //and the task function receive only one argument, the callback
 asncify.retry = function (opts, task, cb) {
+    cb = cb || function () {};
+    
     var retryTimes = 5, timeoutBtwRetries = 0, errorFilter = function () {
         return true;
     }, retriesCt = 0;
